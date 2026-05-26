@@ -4,13 +4,13 @@ import { motion } from 'motion/react';
 import { servicesData } from '@/lib/servicesData';
 import Link from 'next/link';
 
-function ServiceCard({ service, index }: { service: typeof servicesData[0]; index: number }) {
+function ServiceCard({ service }: { service: typeof servicesData[0] }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ delay: index * 0.1 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       className="bg-white p-8 group hover:shadow-xl transition-all duration-300 border border-transparent hover:border-brand-gold/20 flex flex-col h-full rounded-2xl"
     >
       <div className="w-16 h-16 bg-brand-navy shadow-inner flex items-center justify-center mb-8 rounded-xl group-hover:bg-brand-gold transition-colors duration-500">
@@ -66,8 +66,8 @@ export function ServicesSection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
-          {servicesData.map((service, index) => (
-            <ServiceCard key={service.slug} service={service} index={index} />
+          {servicesData.map((service) => (
+            <ServiceCard key={service.slug} service={service} />
           ))}
         </div>
       </div>

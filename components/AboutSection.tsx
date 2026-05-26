@@ -51,20 +51,23 @@ export function AboutSection() {
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
-            className="relative h-[600px] w-full bg-slate-100"
+            className="relative h-[600px] w-full"
           >
-            <Image
-              src="/vitiello.JPG"
-              alt="Dott. Luca Vitiello"
-              fill
-              referrerPolicy="no-referrer"
-              className="object-cover transition-all duration-700"
-            />
             {/* Decorative block */}
-            <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-brand-navy z-[-1]" />
-            <div className="absolute -top-6 -right-6 w-48 h-48 border border-brand-gold z-[-1]" />
+            <div className="absolute -bottom-6 -left-6 w-48 h-48 bg-brand-navy hidden md:block" />
+            <div className="absolute -top-6 -right-6 w-48 h-48 border border-brand-gold hidden md:block" />
+            
+            <div className="relative w-full h-full bg-slate-100 z-10 overflow-hidden rounded-sm shadow-xl">
+              <Image
+                src="/vitiello.JPG"
+                alt="Dott. Luca Vitiello"
+                fill
+                referrerPolicy="no-referrer"
+                className="object-cover transition-all duration-700 hover:scale-105"
+              />
+            </div>
           </motion.div>
         </div>
       </div>
