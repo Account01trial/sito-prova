@@ -8,7 +8,7 @@ import { cn } from '@/lib/utils';
 const faqs = [
   {
     question: "Gestite anche l'apertura di nuove Partite IVA o la costituzione di società?",
-    answer: "Assolutamente sì. Affianchiamo start-up e nuovi imprenditori in ogni fase, dall'analisi di fattibilità alla scelta della forma giuridica più conveniente, fino a tutti gli adempimenti burocratici e notarili."
+    answer: "Assolutamente sì. Affianchiamo nuovi imprenditori in ogni fase, dall'analisi di fattibilità alla scelta della forma giuridica più conveniente, fino a tutti gli adempimenti burocratici e notarili."
   },
   {
     question: "Offrite assistenza in caso di accertamenti fiscali?",

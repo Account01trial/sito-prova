@@ -28,7 +28,7 @@ const team = [
     initials: 'CC'
   },
   {
-    name: "Anna d'Apice",
+    name: "Anna D'Apice",
     role: 'Team Member',
     description: 'Supporto operativo al team e attività amministrative.',
     initials: 'AA'

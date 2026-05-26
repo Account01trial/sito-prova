@@ -16,8 +16,8 @@ export async function POST(req: Request) {
     const resend = new Resend(resendApiKey);
 
     const { data, error } = await resend.emails.send({
-      from: 'Studio Vitiello <website@studiovitiellospa.com>', // Da aggiornare se verifichi un dominio o un indirizzo diverso
-      to: ['amministrazione@studiovitiellospa.com'],
+      from: 'Studio Vitiello <info@vitiellostudio.com>', // Usa il dominio che hai verificato su Resend
+      to: ['amministrazione@studiovitiellospa.com'], // Inserisci qui l'email dove vuoi ricevere i contatti
       subject: `Nuova richiesta di contatto da ${name}`,
       text: `Nuovo messaggio ricevuto dal modulo di contatto del sito web:\n\nNome: ${name}\nAzienda: ${company || 'N/A'}\nEmail: ${email}\nTelefono: ${phone}\n\nMessaggio:\n${message}`,
     });
