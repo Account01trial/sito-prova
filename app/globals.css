@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-brand-navy: #1A365D;
+  --color-brand-navy-light: #2A4365;
+  --color-brand-gold: #B38F5F;
+  --color-brand-gold-light: #D4AF37;
+  --color-brand-gray: #F8F9FB;
+  --color-brand-cream: #F9F7F1;
+  
+  --font-serif: var(--font-serif), "Times New Roman", Times, serif;
+  --font-sans: var(--font-sans), "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Studio Vitiello",
+  "description": "Sito web corporate premium per Studio Vitiello, studio di consulenza societaria e fiscale.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
