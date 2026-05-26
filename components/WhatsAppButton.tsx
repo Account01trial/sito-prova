@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 
 export function WhatsAppButton() {
   const phoneNumber = '393803676525';
-  const textMessage = 'Buongiorno, ho visitato il vostro sito e sarei interessato/a a una call conoscitiva gratuita';
+  const textMessage = 'Buongiorno, ho visitato il sito e sarei interessato/a a una call conoscitiva gratuita.';
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(textMessage)}`;
 
   return (

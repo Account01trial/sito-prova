@@ -5,18 +5,18 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Professionalità, competenza e disponibilità contraddistinguono lo Studio Vitiello. Un punto di riferimento affidabile per la gestione fiscale e societaria della nostra azienda, con un’assistenza sempre puntuale e orientata alle esigenze del cliente.",
-    author: "Alessandro G.",
-    role: "CEO, Tech Solutions S.p.A."
+    quote: "Collaboriamo con lo Studio Vitiello da diverso tempo e hanno sempre gestito la nostra contabilità con grande precisione. Apprezziamo molto la loro chiarezza nello spiegare anche le dinamiche fiscali più complesse e la tempestività con cui rispondono alle nostre richieste.",
+    author: "Matteo R.",
+    role: "Titolare, Tech Solutions"
   },
   {
-    quote: "Avere un team di consulenti che sa guardare oltre il mero adempimento fiscale è una rarità. Ci sentiamo sicuri e ben guidati in ogni scelta strategica.",
-    author: "Marta F.",
-    role: "Direttore Amministrativo, Design Hub S.r.l."
+    quote: "Ho girato diversi studi prima di trovare loro. Finalmente dei professionisti che parlano chiaro, senza usare termini incomprensibili, e che ti avvisano in anticipo sulle scadenze. Mi trovo benissimo.",
+    author: "Giulia L.",
+    role: "Libera Professionista"
   },
   {
-    quote: "Eccellenza assoluta. Risposte veloci, chiare e sempre mirate al risultato. Il Dott. Vitiello e il suo team sono un vero partner di business.",
-    author: "Roberto B.",
+    quote: "Il supporto dello Studio Vitiello è stato fondamentale nella fase di avvio della mia azienda. Hanno gestito gli iter burocratici con grande precisione, sollevandomi da ogni preoccupazione. Poter fare affidamento su professionisti così competenti e disponibili rappresenta una vera risorsa.",
+    author: "Davide S.",
     role: "Imprenditore"
   }
 ];
